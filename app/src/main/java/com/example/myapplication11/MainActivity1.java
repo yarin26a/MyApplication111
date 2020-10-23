@@ -25,12 +25,12 @@ public class MainActivity1 extends AppCompatActivity {
     }
 
     public void onregBord(View view) {
-        Intent i=new Intent(this,MainActivity2.class);
-        startActivity(i);
+        Intent j=new Intent(this,MainActivity3.class);
+        startActivity(j);
     }
 
     public void onTraininglist(View view) {
-        Intent i=new Intent(this,MainActivity2.class);
-        startActivity(i);
+        Intent z=new Intent(this,MainActivity4.class);
+        startActivity(z);
     }
 }
